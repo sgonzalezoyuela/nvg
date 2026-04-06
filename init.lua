@@ -257,6 +257,11 @@ nixInfo.lze.load {
     colorscheme = "moonfly",
   },
   {
+    "tokyonight.nvim",
+    auto_enable = true,
+    colorscheme = { "tokyonight", "tokyonight-night", "tokyonight-storm", "tokyonight-moon", "tokyonight-day" },
+  },
+  {
     "snacks.nvim",
     auto_enable = true,
     -- snacks makes a global, and then lazily loads itself
